@@ -29,7 +29,7 @@ browser.find_element_by_class_name('nui-scroll').send_keys('''
 Dear,
   This is my first mail sent by bot!
 thanks
-Michael''')
+XXX''')
 browser.switch_to.default_content()
 sendMailBtn=browser.find_element_by_xpath("//footer[@class='jp0']/div/span[2]")
 print(type(sendMailBtn))
